@@ -1,0 +1,340 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+  width: 1200px;
+  margin: auto;
+}
+.clear{
+  clear: both;
+}
+.nivbar{
+  background-color: #2b2b2b;
+  height: 50px;
+}
+.nivbar .header{
+  width: 500px;
+  height: 20px;
+  float: left;
+  line-height: 50px;
+}
+.nivbar .header a{
+  text-decoration: none;
+  color: #bfbdbd;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.nivbar .header a span{
+  color: #bf1818;
+  font-size: 20px;
+}
+.nivbar .tools{
+  width: 500px;
+  height: 20px;
+  float: right;
+  line-height: 50px;
+}
+.nivbar .tools ul{
+  list-style: none;
+}
+.nivbar .tools ul li{
+  float: right;
+  padding: 0px 20px;
+  display: inline-block;
+}
+.nivbar .tools ul li:active{
+  text-decoration: none;
+  color: #bfbdbd;
+  text-transform: capitalize;
+  background-color: #bf1818;
+}
+.nivbar .tools ul li a{
+  text-decoration: none;
+  color: #bfbdbd;
+  text-transform: capitalize;
+}
+.part-1{
+  height: 600px;
+  background-image:  url("../images/woman.jpg");
+  background-repeat:  no-repeat;
+  background-size: cover;
+}
+.part-1 .container {
+  text-align: center;
+  padding: 150px 0px 0px 0px;
+  color: #968f8f;
+}
+.part-1 .container p{
+  font-size: 30px;
+}
+.part-1 .container h1{
+  font-size: 60px;
+  padding: 10px 0px;
+}
+.part-1 .container button{
+  border: 2px solid #bf1818;
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+  margin: 15px 0px 0px 0px;
+  background-color: rgba(2,2,2,0);
+}
+.part-1 .container button:active{
+  border: 2px solid #bf1818;
+  border-radius: 5px;
+  color: #bfbdbd;
+  width: 150px;
+  height: 40px;
+  margin: 15px 0px 0px 0px;
+  background-color: #2b2b2b;
+}
+.part-2{
+  background-color: #fff;
+  text-align: center;
+  padding: 50px 0px 0px 0px;
+}
+.part-2 hr{
+  width: 60px;
+  height: 3px;
+  border: none;
+  border-radius: 2px;
+  margin: auto;
+  background-color: #bf1818;
+}
+.part-2 .container p{
+  margin: 10px 0px;
+  color: #bf1818;
+  font-size: 30px;
+}
+.part-2 .container .image-up img{
+  margin:100px 0px 0px 0px;
+  width: 300px;
+  float: left;
+}
+.part-2 .container .image-down img{
+  width: 400px;
+  float: left;
+}
+.part-3{
+  padding: 40px 20px 20px 20px;
+  background-color: #d8d4d4;
+}
+.part-3 hr{
+  width: 60px;
+  height: 3px;
+  border: none;
+  border-radius: 2px;
+  margin: 0px;
+  background-color: #bf1818;
+}
+.part-3 h1{
+  text-align: center;
+  margin: 20px;
+  color: #bf1818;
+}
+.part-3 .container{
+  height: 950px;
+}
+.part-3 .container .head{
+  margin: 80px 0px 0px 0px;
+}
+.part-3 .container .head hr
+{
+  width: 60px;
+  height: 3px;
+  border: none;
+  border-radius: 2px;
+  margin: auto;
+  background-color: #bf1818;
+}
+.part-3 .container .left{
+  width: 450px;
+  height: 800px;
+  margin: 50px 0px 0px 0px;
+  border: 1px solid #d8d4d4;
+  border-radius: 15px;
+  background: url("../images/the_sexiest_man_in_the_world_by_dcentigon-d33myrr.jpg") no-repeat;
+  background-size: cover;
+  float: left;
+}
+.part-3 .container .right .content{
+  width: 450px;
+  height: 650px;
+  float: right;
+  padding: 150px 0px 0px 0px;
+}
+.part-3 .container .right .content .title{
+  color: #bf1818;
+  font-size: 25px;
+}
+.part-3 .container .right .content p{
+  font-size: 20px;
+  margin: 15px;
+  color: #757575;
+}
+.part-3 .container .right .content hr{
+  width: 60px;
+  background-color: #bf1818;
+  margin: 0px 0px 0px 15px;
+}
+.part-3 .container .right .content .size-button button{
+  width: 40px;
+  height: 40px;
+  margin: 15px;
+  color: #757575;
+  background-color: rgba(1,1,1,0);
+  border: 1px solid #757575;
+  border-radius: 5px;
+}
+.part-3 .container .right .content .size-button button:active{
+  width: 40px;
+  height: 40px;
+  margin: 15px;
+  color: #000;
+  background-color: #757575;
+  border: 1px solid #757575;
+  border-radius: 5px;  
+}
+.part-3 .container .right .content .choise-button button{
+  width: 110px;
+  height: 40px;
+  margin: 0px 18px;
+  color: #757575;
+  background-color: rgba(1,1,1,0);
+  border: 1px solid #757575;
+  border-radius: 5px;
+}
+.part-3 .container .right .content .choise-button button:active{
+  width: 110px;
+  height: 40px;
+  margin: 0px 18px;
+  color: #000;
+  background-color: #757575;
+  border: 1px solid #757575;
+  border-radius: 5px;
+}
+.part-4,
+.part-4 .container{
+  height: 900px;
+}
+.part-4 .container h1{
+  color: #bf1818;
+  font-size: 25px;
+}
+.part-4 .container p{
+  color: #757575;
+}
+.part-4 .container .paragraph p{
+  margin-top:60px; 
+}
+.part-4 .container .left{
+  width: 600px;
+  padding-top: 50px; 
+  float: left;
+}
+.part-4 .container .left button{
+  width: 100px;
+  height: 35px;
+  color: #757575;
+  background-color: rgba(1,1,1,0);
+  border: 2px solid #757575;
+  border-radius: 5px;
+  margin: 100px 0px 0px 250px;
+}
+.part-5{
+  height: 800px;
+  background: url("../images/lovely-idea-of-architecture-modern-on-modern-design.jpg") no-repeat;
+  background-size: cover;
+}
+.part-5 .container{
+  height: 650px;
+  background-color: rgba(105,105,107,.4);
+  padding-top: 150px;
+}
+.part-5 h1{
+  font-size: 60px;
+  text-align: center; 
+}
+.part-5 h2{
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 75px;
+}
+.part-5 .container .left-form{
+  width: 600px;
+  float: left;
+}
+.part-5 .container .left-form input{
+  width: 400px;
+  height: 40px;
+  margin: 20px;
+  padding-left: 10px;
+  font-size: 20px;
+  border: 1px solid rgba(58,54,54,.6);
+  border-radius: 10px;
+  background-color: rgba(58,54,54,.6)
+}
+.part-5 .container .right-form{
+  width: 600px;
+  float: right;
+}
+.part-5 .container .right-form input{
+  width: 400px;
+  height: 40px;
+  margin: 20px;
+  padding-left: 10px;
+  font-size: 20px;
+  border: 1px solid rgba(58,54,54,.6);
+  border-radius: 10px;
+  background-color: rgba(58,54,54,.6)
+}
+.part-5 .container .right-form button{
+   width: 400px;
+  height: 40px;
+  margin: 20px;
+  padding-left: 10px;
+  font-size: 20px;
+  border: 1px solid rgba(58,54,54,.6);
+  border-radius: 10px;
+  background-color: #bf1818;
+}
+.part-4 .container .left button:active{
+  width: 100px;
+  height: 35px;
+  color: #fff;
+  background-color: #757575;
+  border: 2px solid #757575;
+  border-radius: 5px;
+  margin: 100px 0px 0px 250px;
+}
+.part-4 .container .right{
+  width: 600px;
+  padding-top: 50px; 
+  float: right;
+}
+.part-4 .container .right button{
+  width: 100px;
+  height: 35px;
+  color: #757575;
+  background-color: rgba(1,1,1,0);
+  border: 2px solid #757575;
+  border-radius: 5px;
+  margin: 100px 0px 0px 250px;
+}
+.part-4 .container .right button:active{
+  width: 100px;
+  height: 35px;
+  color: #fff;
+  background-color: #757575;
+  border: 2px solid #757575;
+  border-radius: 5px;
+  margin: 100px 0px 0px 250px;
+}
+.part-4 .container div img{
+  width: 575px;
+  height: 400px;
+  margin-bottom: 50px;
+  border: 5px solid #eae5e5;
+  border-radius: 5px;
+}
